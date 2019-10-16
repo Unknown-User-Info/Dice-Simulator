@@ -253,10 +253,10 @@ function sellAll() {
 
     //Giving back cash
     for (totalValue = totalValue; totalValue >= 5000; totalValue = totalValue - 5000) {
-        fundValue = fundValue + 5000;
+        fundValue = fundValue + 3750;
     }
     for (totalValue = totalValue; totalValue >= 1000; totalValue = totalValue - 1000) {
-        fundValue = fundValue + 1000;
+        fundValue = fundValue + 750;
     }
 
     //Displaying fund value after sold
